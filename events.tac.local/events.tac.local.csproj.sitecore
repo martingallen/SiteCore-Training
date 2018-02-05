@@ -5,4 +5,10 @@
   <File Include="/Views/TAC/Events/Layout/ViewLayout1.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
     <Item DatabaseName="master">{C364C512-A240-41A0-8182-082B615784A9}</Item>
   </File>
+  <File Include="Views\TAC\Events\Layouts\Events.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{1B6DD4B4-7D31-4F81-A3B0-64B5E88C57A8}</Item>
+  </File>
+  <File Include="/Views/TAC/Events/Events.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{1B6DD4B4-7D31-4F81-A3B0-64B5E88C57A8}</Item>
+  </File>
 </Project>
