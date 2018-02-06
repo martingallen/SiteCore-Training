@@ -5,19 +5,14 @@
 
 }
 <div class="row">
-    <div class="col-sm-4">
-        <!-- [FeaturedEvent] -->
-        @Html.Sitecore().DynamicPlaceholder("feature-left")
-        <!-- [/FeaturedEvent] -->
-    </div>
-    <div class="col-sm-4">
-        <!-- [FeaturedEvent] -->
-        @Html.Sitecore().DynamicPlaceholder("feature-middle")
-        <!-- [/FeaturedEvent] -->
-    </div>
-    <div class="col-sm-4">
-        <!-- [FeaturedEvent] -->
-        @Html.Sitecore().DynamicPlaceholder("feature-right")
-        <!-- [/FeaturedEvent] -->
-    </div>
+    @Html.Sitecore().DynamicPlaceholder("feature_spot", CreateDivWrap(), 3)
 </div>
+
+@functions{
+    TagBuilder CreateDivWrap()
+    {
+        var tagBuilder = new TagBuilder("div");
+        tagBuilder.AddCssClass("col-sm-4");
+        return tagBuilder;
+    }
+}
