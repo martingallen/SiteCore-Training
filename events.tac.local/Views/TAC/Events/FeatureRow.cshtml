@@ -1,0 +1,23 @@
+﻿@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@model RenderingModel
+@{
+
+}
+<div class="row">
+    <div class="col-sm-4">
+        <!-- [FeaturedEvent] -->
+        @Html.Sitecore().Placeholder("feature-left")
+        <!-- [/FeaturedEvent] -->
+    </div>
+    <div class="col-sm-4">
+        <!-- [FeaturedEvent] -->
+        @Html.Sitecore().Placeholder("feature-middle")
+        <!-- [/FeaturedEvent] -->
+    </div>
+    <div class="col-sm-4">
+        <!-- [FeaturedEvent] -->
+        @Html.Sitecore().Placeholder("feature-right")
+        <!-- [/FeaturedEvent] -->
+    </div>
+</div>
