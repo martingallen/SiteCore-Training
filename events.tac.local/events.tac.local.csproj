@@ -190,7 +190,6 @@
     <Content Include="Scripts\Sitecore.Foundation.Theming.min.js" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="App_Config\Include\TAC\Events\" />
     <Folder Include="App_Data\" />
   </ItemGroup>
   <ItemGroup>
@@ -270,6 +269,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <None Include="App_Config\Include\TAC\Events\EventsSiteDefinition.config" />
     <None Include="Properties\PublishProfiles\Local.pubxml" />
     <Content Include="Views\TAC\Events\Layouts\Events.cshtml" />
     <Content Include="Views\EventIntro\Index.cshtml" />
