@@ -285,6 +285,7 @@
     <Content Include="Areas\Importer\Views\_ViewStart.cshtml" />
     <Content Include="Areas\Importer\Views\Shared\Layout.cshtml" />
     <Content Include="Areas\Importer\Views\Events\Index.cshtml" />
+    <Content Include="Areas\Importer\SampleImport\sample.json" />
     <None Include="Properties\PublishProfiles\Local.pubxml" />
     <Content Include="Views\TAC\Events\Layouts\Events.cshtml" />
     <Content Include="Views\EventIntro\Index.cshtml" />
