@@ -281,7 +281,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <None Include="App_Config\Include\TAC\Events\EventsSiteDefinition.config" />
+    <Content Include="App_Config\Include\TAC\Events\EventsSiteDefinition.config" />
     <Content Include="Areas\Importer\Views\web.config" />
     <Content Include="Areas\Importer\Views\_ViewStart.cshtml" />
     <Content Include="Areas\Importer\Views\Shared\Layout.cshtml" />
