@@ -145,6 +145,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Areas\Importer\Controllers\EventsController.cs" />
+    <Compile Include="Areas\Importer\ImporterAreaRegistration.cs" />
     <Compile Include="Controllers\BreadcrumbController.cs" />
     <Compile Include="Controllers\CommentsFormController.cs" />
     <Compile Include="Controllers\EventIntroController.cs" />
@@ -199,6 +201,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Areas\Importer\Models\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Web.config" />
@@ -278,6 +281,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App_Config\Include\TAC\Events\EventsSiteDefinition.config" />
+    <Content Include="Areas\Importer\Views\web.config" />
+    <Content Include="Areas\Importer\Views\_ViewStart.cshtml" />
+    <Content Include="Areas\Importer\Views\Shared\Layout.cshtml" />
+    <Content Include="Areas\Importer\Views\Events\Index.cshtml" />
     <None Include="Properties\PublishProfiles\Local.pubxml" />
     <Content Include="Views\TAC\Events\Layouts\Events.cshtml" />
     <Content Include="Views\EventIntro\Index.cshtml" />
