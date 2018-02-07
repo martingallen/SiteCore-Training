@@ -149,6 +149,7 @@
     <Compile Include="Controllers\EventIntroController.cs" />
     <Compile Include="Controllers\OverviewController.cs" />
     <Compile Include="Controllers\RelatedEventsController.cs" />
+    <Compile Include="Controllers\SubscribeFormController.cs" />
     <Compile Include="Models\EventIntro.cs" />
     <Compile Include="Models\NavigationItem.cs" />
     <Compile Include="Models\OverviewItem.cs" />
@@ -289,6 +290,8 @@
     <Content Include="Views\Breadcrumb\Index.cshtml" />
     <Content Include="Views\Overview\Index.cshtml" />
     <Content Include="Views\RelatedEvents\Index.cshtml" />
+    <Content Include="Views\SubscribeForm\Index.cshtml" />
+    <Content Include="Views\SubscribeForm\Confirmation.cshtml" />
     <None Include="Web.config" />
     <None Include="Properties\PublishProfiles\events.pubxml" />
     <None Include="Web.Debug.config">
