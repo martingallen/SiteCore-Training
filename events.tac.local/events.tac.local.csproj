@@ -197,6 +197,7 @@
     <Content Include="Images\Rock-Climbing-in-the-Czech-Republic.jpg" />
     <Content Include="Images\skiing-events.jpg" />
     <Content Include="Images\Skiing-the-Himalayas.jpg" />
+    <Content Include="Scripts\commentsForm.js" />
     <Content Include="Scripts\Navigation.js" />
     <Content Include="Scripts\Sitecore.Foundation.Theming.min.js" />
   </ItemGroup>
