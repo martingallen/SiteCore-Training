@@ -1,7 +1,10 @@
-﻿<!-- [Comments Form] -->
+﻿@using TAC.Utils.Helpers
+
+<!-- [Comments Form] -->
 <div>
     @using (Html.BeginForm())
-    { 
+    {
+        @Html.FormHandler()
         <div>
             <input type="text" class="form-control" placeholder="Name" name="email">
             <input type="text" class="form-control" placeholder="Add your comment here" name="comment">
