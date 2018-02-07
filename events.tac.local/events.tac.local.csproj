@@ -146,6 +146,7 @@
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\BreadcrumbController.cs" />
+    <Compile Include="Controllers\CommentsFormController.cs" />
     <Compile Include="Controllers\EventIntroController.cs" />
     <Compile Include="Controllers\OverviewController.cs" />
     <Compile Include="Controllers\RelatedEventsController.cs" />
@@ -292,6 +293,8 @@
     <Content Include="Views\RelatedEvents\Index.cshtml" />
     <Content Include="Views\SubscribeForm\Index.cshtml" />
     <Content Include="Views\SubscribeForm\Confirmation.cshtml" />
+    <Content Include="Views\CommentsForm\Index.cshtml" />
+    <Content Include="Views\CommentsForm\Confirmation.cshtml" />
     <None Include="Web.config" />
     <None Include="Properties\PublishProfiles\events.pubxml" />
     <None Include="Web.Debug.config">
