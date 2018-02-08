@@ -293,6 +293,7 @@
     <Content Include="Areas\Importer\SampleImport\sample.json" />
     <Content Include="App_Config\Include\TAC\Events\Events.DefaultIndexConfiguration.config" />
     <Content Include="App_Config\Include\TAC\Events\Solr.Events.Web.Index.config" />
+    <Content Include="App_Config\Include\TAC\Events\Events.Services.Client.config" />
     <None Include="App_Config\Include\TAC\Events\Solr.Events.Master.Index.config" />
     <None Include="Properties\PublishProfiles\Local.pubxml" />
     <Content Include="Views\TAC\Events\Layouts\Events.cshtml" />
